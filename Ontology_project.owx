@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/incen/ontologies/2024/3/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/incen/ontologies/2024/3/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/incen/ontologies/2024/3/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Acneique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bienfait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defaut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gommage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grasse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hebdomadaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Journalier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mensuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naturel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nettoyant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Origine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synthetique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_bienfait"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_defaut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_frequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Est_contenu_dans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Utiliser_avant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Vend"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#A_Volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#A_site_web"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Coute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AHA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acide_hyaluronique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Allergene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aquarich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argile_jaune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beurre_de_karité"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caffeine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cancerigene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caudalie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coumarin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crème_Hydratation_intense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curcuma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eau_de_raisin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Effaclar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exfoliant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garnier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glycerin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydra_végétal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydratant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Roche-Posay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matifiant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niacinamide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niacinamide_Zinc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nocibé_essentiel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nourrissant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Occitane_en_provence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P74_Masque_Eclat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PCA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perturbateur_endocrinien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Propylparaben"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pure_active_air_cream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pure_algue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purifiant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Retinol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sucrose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sulfonate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_ordinary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tocopheryle_acetate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Typologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uriage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vitamine_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xanthan_gum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yves_Rocher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zinc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irritant"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Gommage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Utiliser_avant"/>
+            <Class IRI="#Serum"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ingredient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Est_contenu_dans"/>
+            <Class IRI="#Produit"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Marque"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Vend"/>
+            <Class IRI="#Produit"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Marque"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#A_site_web"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nettoyant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Utiliser_avant"/>
+            <Class IRI="#Gommage"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Produit"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#A_bienfait"/>
+            <Class IRI="#Bienfait"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Produit"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#A_frequence"/>
+            <Class IRI="#Frequence"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Produit"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#Est_vendu_par"/>
+            <Class IRI="#Marque"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Produit"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#A_defaut"/>
+            <Class IRI="#Defaut"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Produit"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Coute"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Serum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Utiliser_avant"/>
+            <Class IRI="#Creme"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acneique"/>
+        <Class IRI="#Peau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bio"/>
+        <Class IRI="#Origine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creme"/>
+        <Class IRI="#Produit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gommage"/>
+        <Class IRI="#Produit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grasse"/>
+        <Class IRI="#Peau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hebdomadaire"/>
+        <Class IRI="#Frequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Journalier"/>
+        <Class IRI="#Frequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masque"/>
+        <Class IRI="#Produit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mensuel"/>
+        <Class IRI="#Frequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixte"/>
+        <Class IRI="#Peau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naturel"/>
+        <Class IRI="#Origine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nettoyant"/>
+        <Class IRI="#Produit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seche"/>
+        <Class IRI="#Peau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serum"/>
+        <Class IRI="#Produit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synthetique"/>
+        <Class IRI="#Origine"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Bienfait"/>
+        <Class IRI="#Defaut"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hebdomadaire"/>
+        <Class IRI="#Journalier"/>
+        <Class IRI="#Mensuel"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#AHA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Acide_hyaluronique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Defaut"/>
+        <NamedIndividual IRI="#Allergene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gommage"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nettoyant"/>
+        <NamedIndividual IRI="#Aquarich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Argile_jaune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Naturel"/>
+        <NamedIndividual IRI="#Argile_jaune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Beurre_de_karité"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Naturel"/>
+        <NamedIndividual IRI="#Beurre_de_karité"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#CIEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Caffeine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Journalier"/>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Produit"/>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Defaut"/>
+        <NamedIndividual IRI="#Cancerigene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Caudalie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Coumarin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creme"/>
+        <NamedIndividual IRI="#Crème_Hydratation_intense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Journalier"/>
+        <NamedIndividual IRI="#Crème_Hydratation_intense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Curcuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Eau_de_raisin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nettoyant"/>
+        <NamedIndividual IRI="#Effaclar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#Exfoliant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Garnier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Glycerin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creme"/>
+        <NamedIndividual IRI="#Hydra_végétal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Journalier"/>
+        <NamedIndividual IRI="#Hydra_végétal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#Hydratant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#La_Roche-Posay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#Matifiant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Niacinamide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serum"/>
+        <NamedIndividual IRI="#Niacinamide_Zinc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hebdomadaire"/>
+        <NamedIndividual IRI="#Nocibé_essentiel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Nocibé_essentiel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#Nourrissant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Occitane_en_provence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hebdomadaire"/>
+        <NamedIndividual IRI="#P74_Masque_Eclat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masque"/>
+        <NamedIndividual IRI="#P74_Masque_Eclat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#PCA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Defaut"/>
+        <NamedIndividual IRI="#Perturbateur_endocrinien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Propylparaben"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Synthetique"/>
+        <NamedIndividual IRI="#Propylparaben"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creme"/>
+        <NamedIndividual IRI="#Pure_active_air_cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Journalier"/>
+        <NamedIndividual IRI="#Pure_active_air_cream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bio"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gommage"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hebdomadaire"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bienfait"/>
+        <NamedIndividual IRI="#Purifiant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Retinol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Sucrose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Sulfonate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#The_ordinary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Tocopheryle_acetate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Typologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Uriage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Vitamine_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Xanthan_gum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marque"/>
+        <NamedIndividual IRI="#Yves_Rocher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ingredient"/>
+        <NamedIndividual IRI="#Zinc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Defaut"/>
+        <NamedIndividual IRI="#irritant"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+        <NamedIndividual IRI="#AHA"/>
+        <NamedIndividual IRI="#Retinol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#A_bienfait"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Exfoliant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#A_defaut"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Allergene"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Coumarin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Propylparaben"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Sucrose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <NamedIndividual IRI="#Occitane_en_provence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Aquarich"/>
+        <NamedIndividual IRI="#Glycerin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Aquarich"/>
+        <NamedIndividual IRI="#Xanthan_gum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <NamedIndividual IRI="#Aquarich"/>
+        <NamedIndividual IRI="#CIEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+        <NamedIndividual IRI="#Caffeine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+        <NamedIndividual IRI="#The_ordinary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Crème_Hydratation_intense"/>
+        <NamedIndividual IRI="#Eau_de_raisin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#A_bienfait"/>
+        <NamedIndividual IRI="#Hydra_végétal"/>
+        <NamedIndividual IRI="#Hydratant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Vend"/>
+        <NamedIndividual IRI="#Occitane_en_provence"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#A_bienfait"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <NamedIndividual IRI="#Purifiant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <NamedIndividual IRI="#Coumarin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Contient"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <NamedIndividual IRI="#Glycerin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <NamedIndividual IRI="#Yves_Rocher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+        <NamedIndividual IRI="#Retinol"/>
+        <NamedIndividual IRI="#AHA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Vend"/>
+        <NamedIndividual IRI="#The_ordinary"/>
+        <NamedIndividual IRI="#Caffeine_solution"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Vend"/>
+        <NamedIndividual IRI="#Yves_Rocher"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#A_Volume"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Coute"/>
+        <NamedIndividual IRI="#Amand_Pâte_délice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">16.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#A_Volume"/>
+        <NamedIndividual IRI="#Aquarich"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Coute"/>
+        <NamedIndividual IRI="#Aquarich"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">16.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#A_Volume"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">75.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Coute"/>
+        <NamedIndividual IRI="#Pure_algue"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#A_site_web"/>
+        <NamedIndividual IRI="#The_ordinary"/>
+        <Literal>https://theordinary.com/en-fr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#A_site_web"/>
+        <NamedIndividual IRI="#Yves_Rocher"/>
+        <Literal>https://www.yves-rocher.fr</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Contient"/>
+        <ObjectProperty IRI="#Est_contenu_dans"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <ObjectProperty IRI="#Vend"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#A_defaut"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#A_frequence"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Contient"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Est_contenu_dans"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Utiliser_avant"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_bienfait"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_defaut"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_frequence"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Contient"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Est_contenu_dans"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Utiliser_avant"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Vend"/>
+        <Class IRI="#Marque"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#A_bienfait"/>
+        <Class IRI="#Bienfait"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#A_defaut"/>
+        <Class IRI="#Defaut"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#A_frequence"/>
+        <Class IRI="#Frequence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Est_contenu_dans"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Est_incompatible_avec"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Est_vendu_par"/>
+        <Class IRI="#Marque"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Utiliser_avant"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Vend"/>
+        <Class IRI="#Produit"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#A_Volume"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#A_Volume"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#A_site_web"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Coute"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#A_Volume"/>
+        <Class IRI="#Produit"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#A_site_web"/>
+        <Class IRI="#Marque"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Coute"/>
+        <Class IRI="#Produit"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#A_Volume"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#A_site_web"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Coute"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#A_Volume</IRI>
+        <Literal>Les volumes des produits sont indiqués en m/L</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coute</IRI>
+        <Literal>Les prix des produits sont indiqués en euros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Origine</IRI>
+        <Literal>L&apos;origine d&apos;un produit/ingédient ou sa certification</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
